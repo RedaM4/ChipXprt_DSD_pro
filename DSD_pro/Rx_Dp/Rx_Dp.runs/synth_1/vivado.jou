@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Dec 11 16:13:34 2024
+# Process ID: 131609
+# Current directory: /home/it/chipxprt/DSD_pro/Rx_Dp/Rx_Dp.runs/synth_1
+# Command line: vivado -log Rx_DP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Rx_DP.tcl
+# Log file: /home/it/chipxprt/DSD_pro/Rx_Dp/Rx_Dp.runs/synth_1/Rx_DP.vds
+# Journal file: /home/it/chipxprt/DSD_pro/Rx_Dp/Rx_Dp.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Rx_DP.tcl -notrace
