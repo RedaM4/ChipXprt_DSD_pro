@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Tx_FSM_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Tx_FSM_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="72800001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="122"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="logic" fp_name="/Tx_FSM_sim/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Tx_FSM_sim/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Tx_FSM_sim/signal">
+      <obj_property name="ElementShortName">signal</obj_property>
+      <obj_property name="ObjectShortName">signal</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Tx_FSM_sim/Parity_en">
+      <obj_property name="ElementShortName">Parity_en</obj_property>
+      <obj_property name="ObjectShortName">Parity_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Tx_FSM_sim/Counter_reset">
+      <obj_property name="ElementShortName">Counter_reset</obj_property>
+      <obj_property name="ObjectShortName">Counter_reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Tx_FSM_sim/en">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Tx_FSM_sim/S">
+      <obj_property name="ElementShortName">S[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Tx_FSM_sim/dut/current_state">
+      <obj_property name="ElementShortName">current_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Tx_FSM_sim/dut/next_state">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+</wave_config>
