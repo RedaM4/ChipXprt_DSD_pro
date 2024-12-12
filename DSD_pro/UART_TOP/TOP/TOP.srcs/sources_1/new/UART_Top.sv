@@ -68,7 +68,7 @@ module UART_Top #(parameter parity_en=0,odd_even=0) (
     output logic busy
     );
     
-    localparam divFactor=15;
+    localparam divFactor=7;
     
     logic dividedClock=0;
     logic out=0;

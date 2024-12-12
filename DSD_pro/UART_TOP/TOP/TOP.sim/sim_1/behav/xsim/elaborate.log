@@ -15,9 +15,9 @@ Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.dFlipFlop
-Compiling module xil_defaultlib.nBits_comparator(n=15)
-Compiling module xil_defaultlib.nBits_up_down_counter(n=15)
-Compiling module xil_defaultlib.n_clockDivider(n=15)
+Compiling module xil_defaultlib.nBits_comparator(n=7)
+Compiling module xil_defaultlib.nBits_up_down_counter(n=7)
+Compiling module xil_defaultlib.n_clockDivider(n=7)
 Compiling module xil_defaultlib.nBits_comparator(n=4'b1001)
 Compiling module xil_defaultlib.Tx_FSM
 Compiling module xil_defaultlib.n_shiftRegister_oneBit(n=8)

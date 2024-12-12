@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir /home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.sim/sim_1/behav/xsim/xsim.dir/UART_Top_sim_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Thu Dec 12 08:40:53 2024" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Thu Dec 12 09:52:55 2024" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2019.1 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2552052" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "LIN64" -context "software_version_and_target_device"
@@ -14,11 +14,11 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "662d0d13-652a-4853-ae2f-8d6770e6b406" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "aaab0aca6a5f433584f6e3449d55e868" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "57" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "61" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Linuxmint" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "Linux Mint 22" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "12th Gen Intel(R) Core(TM) i7-1260P" -context "user_environment"
-webtalk_add_data -client project -key cpu_speed -value "512.208 MHz" -context "user_environment"
+webtalk_add_data -client project -key cpu_speed -value "1614.184 MHz" -context "user_environment"
 webtalk_add_data -client project -key total_processors -value "1" -context "user_environment"
 webtalk_add_data -client project -key system_ram -value "16.000 GB" -context "user_environment"
 webtalk_register_client -client xsim
@@ -37,7 +37,7 @@ webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Processes -value "105" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Instances -value "29" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip unimacro_ver unisims_ver " -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Time -value "0.66_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Compiler_Time -value "0.67_sec" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Compiler_Memory -value "205864_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 2603578986 -regid "" -xml /home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.sim/sim_1/behav/xsim/xsim.dir/UART_Top_sim_behav/webtalk/usage_statistics_ext_xsim.xml -html /home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.sim/sim_1/behav/xsim/xsim.dir/UART_Top_sim_behav/webtalk/usage_statistics_ext_xsim.html -wdm /home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.sim/sim_1/behav/xsim/xsim.dir/UART_Top_sim_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_transmit -clientid 3529842186 -regid "" -xml /home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.sim/sim_1/behav/xsim/xsim.dir/UART_Top_sim_behav/webtalk/usage_statistics_ext_xsim.xml -html /home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.sim/sim_1/behav/xsim/xsim.dir/UART_Top_sim_behav/webtalk/usage_statistics_ext_xsim.html -wdm /home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.sim/sim_1/behav/xsim/xsim.dir/UART_Top_sim_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate
