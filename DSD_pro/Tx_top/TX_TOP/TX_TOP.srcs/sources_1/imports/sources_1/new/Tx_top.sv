@@ -69,7 +69,6 @@ module Tx_top #(parameter PARITY_EN=5)(
     logic counter_reset=0;
     logic [1:0]s=0;
     logic en;
-    logic shift_en;
     
     nBits_comparator #(.n(UART_ADDRESS)) comp1(.clk(clk),.reset(reset),.in(address),.signal(signal));
     Tx_FSM fsm1(.clk(clk),.reset(reset),.signal(signal),.Parity_en(PARITY_EN),.Counter_reset(counter_reset),.en(en),.S(s),.busy(busy));

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="UART_Top_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="UART_Top_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="44050000001fs"></ZoomEndTime>
+      <Cursor1Time time="8350000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="84"></NameColumnWidth>
+      <ValueColumnWidth column_width="60"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject type="logic" fp_name="/UART_Top_sim/UART1/clkDiv1/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_Top_sim/UART1/dividedClock">
+      <obj_property name="ElementShortName">dividedClock</obj_property>
+      <obj_property name="ObjectShortName">dividedClock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_Top_sim/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_Top_sim/busy">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_Top_sim/UART1/dividedClock">
+      <obj_property name="ElementShortName">dividedClock</obj_property>
+      <obj_property name="ObjectShortName">dividedClock</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_Top_sim/UART1/clkDiv1/nbc1/count">
+      <obj_property name="ElementShortName">count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_Top_sim/UART1/TX1/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_Top_sim/UART1/TX1/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_Top_sim/UART1/TX1/address">
+      <obj_property name="ElementShortName">address[3:0]</obj_property>
+      <obj_property name="ObjectShortName">address[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_Top_sim/UART1/TX1/data_in">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_Top_sim/UART1/TX1/busy">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_Top_sim/UART1/TX1/out">
+      <obj_property name="ElementShortName">out</obj_property>
+      <obj_property name="ObjectShortName">out</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_Top_sim/UART1/TX1/signal">
+      <obj_property name="ElementShortName">signal</obj_property>
+      <obj_property name="ObjectShortName">signal</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_Top_sim/UART1/TX1/counter_reset">
+      <obj_property name="ElementShortName">counter_reset</obj_property>
+      <obj_property name="ObjectShortName">counter_reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_Top_sim/UART1/TX1/s">
+      <obj_property name="ElementShortName">s[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_Top_sim/UART1/TX1/en">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_Top_sim/UART1/TX1/PARITY_EN">
+      <obj_property name="ElementShortName">PARITY_EN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PARITY_EN[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_Top_sim/UART1/TX1/UART_ADDRESS">
+      <obj_property name="ElementShortName">UART_ADDRESS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_ADDRESS[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_Top_sim/UART1/TX1/fsm1/current_state">
+      <obj_property name="ElementShortName">current_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_Top_sim/UART1/TX1/fsm1/next_state">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_Top_sim/UART1/RX1/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_Top_sim/UART1/RX1/in_bit">
+      <obj_property name="ElementShortName">in_bit</obj_property>
+      <obj_property name="ObjectShortName">in_bit</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_Top_sim/UART1/RX1/out_bit">
+      <obj_property name="ElementShortName">out_bit[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_bit[7:0]</obj_property>
+   </wvobject>
+</wave_config>
