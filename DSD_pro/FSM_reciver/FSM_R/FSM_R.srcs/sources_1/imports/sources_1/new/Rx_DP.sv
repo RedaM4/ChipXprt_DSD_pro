@@ -2,11 +2,12 @@
 
 module Rx_DP #(odd_even =0)(
 input logic clk,reset,Data_or_parity,Data_in,Rxreg_en,en,reset_counter, 
- output logic valid, Rx_Buffer,stop,sample_now,delay_done  );
+ output logic pb_error, Rx_Buffer,stop,sample_now,delay_done  );
  
  logic [3:0]C1 ;  
  logic [2:0]C2 ; 
-  Counter #(.n(4)) one(
+ 
+  Counter #(4) one(
         .clk(clk),
         .reset_n(reset_counter),
         .enable(en),
@@ -23,18 +24,24 @@ input logic clk,reset,Data_or_parity,Data_in,Rxreg_en,en,reset_counter,
     
      
   Comparetor #(4) second (
+        .clk(clk),
+        .reset(reset),
         .a(C1),
         .b(4'd15),
         .equal(sample_now)
     );
   
     Comparetor #(4) first (
+         .clk(clk),
+        .reset(reset),
         .a(C1),
         .b(4'd7),
         .equal(delay_done)
     );  
     
      Comparetor #(3) third (
+      .clk(clk),
+        .reset(reset),
         .a(C2),
         .b(3'd7),
         .equal(stop)
@@ -64,6 +71,6 @@ input logic clk,reset,Data_or_parity,Data_in,Rxreg_en,en,reset_counter,
         .en(Rxreg_en),
         .q(Pb_check)
     );
-    assign valid = odd_even ? ~(dmux_out2 ^ Pb_check) : (dmux_out2 ^ Pb_check); 
+    assign pb_error = odd_even ? ~(dmux_out2 ^ Pb_check) : (dmux_out2 ^ Pb_check); 
     assign Rx_Buffer = dmux_out2 ; 
 endmodule

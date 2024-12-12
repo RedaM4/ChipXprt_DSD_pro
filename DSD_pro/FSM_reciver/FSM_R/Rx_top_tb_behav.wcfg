@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Rx_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Rx_top_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="8833333fs"></ZoomStartTime>
+      <ZoomEndTime time="166233334fs"></ZoomEndTime>
+      <Cursor1Time time="98633000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="148"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="39" />
+   <wvobject type="logic" fp_name="/Rx_top_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/in_bit">
+      <obj_property name="ElementShortName">in_bit</obj_property>
+      <obj_property name="ObjectShortName">in_bit</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rx_top_tb/out_bit">
+      <obj_property name="ElementShortName">out_bit[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_bit[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rx_top_tb/parity_en">
+      <obj_property name="ElementShortName">parity_en[31:0]</obj_property>
+      <obj_property name="ObjectShortName">parity_en[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rx_top_tb/odd_even">
+      <obj_property name="ElementShortName">odd_even[31:0]</obj_property>
+      <obj_property name="ObjectShortName">odd_even[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/fsm_receiver_inst/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/fsm_receiver_inst/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/fsm_receiver_inst/in_bit">
+      <obj_property name="ElementShortName">in_bit</obj_property>
+      <obj_property name="ObjectShortName">in_bit</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/fsm_receiver_inst/delay_done">
+      <obj_property name="ElementShortName">delay_done</obj_property>
+      <obj_property name="ObjectShortName">delay_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/fsm_receiver_inst/sample_now">
+      <obj_property name="ElementShortName">sample_now</obj_property>
+      <obj_property name="ObjectShortName">sample_now</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/fsm_receiver_inst/stop">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/fsm_receiver_inst/parity_en">
+      <obj_property name="ElementShortName">parity_en</obj_property>
+      <obj_property name="ObjectShortName">parity_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/fsm_receiver_inst/Error_pb">
+      <obj_property name="ElementShortName">Error_pb</obj_property>
+      <obj_property name="ObjectShortName">Error_pb</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/fsm_receiver_inst/Data_or_parity">
+      <obj_property name="ElementShortName">Data_or_parity</obj_property>
+      <obj_property name="ObjectShortName">Data_or_parity</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/fsm_receiver_inst/Rx_reg_en">
+      <obj_property name="ElementShortName">Rx_reg_en</obj_property>
+      <obj_property name="ObjectShortName">Rx_reg_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/fsm_receiver_inst/en">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/fsm_receiver_inst/reset_counter">
+      <obj_property name="ElementShortName">reset_counter</obj_property>
+      <obj_property name="ObjectShortName">reset_counter</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rx_top_tb/uut/fsm_receiver_inst/current_state">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rx_top_tb/uut/fsm_receiver_inst/next_state">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/Data_or_parity">
+      <obj_property name="ElementShortName">Data_or_parity</obj_property>
+      <obj_property name="ObjectShortName">Data_or_parity</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/Data_in">
+      <obj_property name="ElementShortName">Data_in</obj_property>
+      <obj_property name="ObjectShortName">Data_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/Rxreg_en">
+      <obj_property name="ElementShortName">Rxreg_en</obj_property>
+      <obj_property name="ObjectShortName">Rxreg_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/en">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/reset_counter">
+      <obj_property name="ElementShortName">reset_counter</obj_property>
+      <obj_property name="ObjectShortName">reset_counter</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/pb_error">
+      <obj_property name="ElementShortName">pb_error</obj_property>
+      <obj_property name="ObjectShortName">pb_error</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/Rx_Buffer">
+      <obj_property name="ElementShortName">Rx_Buffer</obj_property>
+      <obj_property name="ObjectShortName">Rx_Buffer</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/stop">
+      <obj_property name="ElementShortName">stop</obj_property>
+      <obj_property name="ObjectShortName">stop</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/sample_now">
+      <obj_property name="ElementShortName">sample_now</obj_property>
+      <obj_property name="ObjectShortName">sample_now</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/delay_done">
+      <obj_property name="ElementShortName">delay_done</obj_property>
+      <obj_property name="ObjectShortName">delay_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rx_top_tb/uut/rx_dp_inst/C1">
+      <obj_property name="ElementShortName">C1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">C1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rx_top_tb/uut/rx_dp_inst/C2">
+      <obj_property name="ElementShortName">C2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">C2[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/reg_wire">
+      <obj_property name="ElementShortName">reg_wire</obj_property>
+      <obj_property name="ObjectShortName">reg_wire</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/dmux_out1">
+      <obj_property name="ElementShortName">dmux_out1</obj_property>
+      <obj_property name="ObjectShortName">dmux_out1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/dmux_out2">
+      <obj_property name="ElementShortName">dmux_out2</obj_property>
+      <obj_property name="ObjectShortName">dmux_out2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Rx_top_tb/uut/rx_dp_inst/Pb_check">
+      <obj_property name="ElementShortName">Pb_check</obj_property>
+      <obj_property name="ObjectShortName">Pb_check</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Rx_top_tb/uut/rx_dp_inst/odd_even">
+      <obj_property name="ElementShortName">odd_even[31:0]</obj_property>
+      <obj_property name="ObjectShortName">odd_even[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -28,7 +28,7 @@ FSM_Receiver fsm_receiver_inst (
        // .active_stop(active_stop),        // Connect active_stop       
         .stop(stop),                      // Connect stop
         .parity_en(parity_en),            // Connect parity_en
-        .valid(error_pb),                    // Connect valid
+        .Error_pb(error_pb),                    // Connect valid
         .Data_or_parity(Data_or_parity),  // Connect Data_or_parity
         .Rx_reg_en(Rxreg_en),            // Connect Rx_reg_en
         .en(en_counter1),                          // Connect en
@@ -42,7 +42,7 @@ FSM_Receiver fsm_receiver_inst (
         .Data_in(in_bit),                // Connect Data_in
         .Rxreg_en(Rxreg_en),              // Connect Rxreg_en
         .en(en_counter1),                          // Connect en
-        .valid(error_pb),                    // Connect valid
+        .pb_error(error_pb),                    // Connect valid
         .Rx_Buffer(rxd_buffer),            // Connect Rx_Buffer
         .stop(stop),                      // Connect stop
         .sample_now(sample_now),          // Connect sample_now
@@ -52,7 +52,7 @@ FSM_Receiver fsm_receiver_inst (
 
     // Instantiate the shift_register module
     shift_register #(
-        .n(8) // Set the width of the shift register
+        .n(parity_en ? 9:8) // Set the width of the shift register
     ) shift_register_inst (
         .clk(clk),             // Connect clock signal
         .reset(reset),         // Connect reset signal

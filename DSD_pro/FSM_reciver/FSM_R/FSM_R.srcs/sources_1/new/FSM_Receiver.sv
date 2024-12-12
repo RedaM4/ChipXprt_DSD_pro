@@ -9,7 +9,7 @@ module FSM_Receiver(
    // input logic active_stop, //not use 
     input logic stop, //c3 finish 
     input logic parity_en,
-    input logic valid,
+    input logic Error_pb,
     //out
     output logic Data_or_parity,
     output logic Rx_reg_en,
@@ -58,7 +58,7 @@ always_comb begin
     
     num_error  : next_state = IDLE;
     
-    parity_bit : next_state =  valid ? stop_state : pb_error ;
+    parity_bit : next_state =  Error_pb ? pb_error : stop_state ;
     
     pb_error   : next_state = stop_state ;
     
@@ -71,8 +71,10 @@ always_comb begin
 always_comb begin 
     case(current_state)
     IDLE : begin
+           en = 0 ;
            Data_or_parity =0 ;
            Rx_reg_en =0;
+           reset_counter = 0;
            end
    counter1 : begin
            en = 1 ; // add it to all states 
@@ -82,33 +84,45 @@ always_comb begin
            end
            
    counter2: begin
-          Data_or_parity =0 ;
-          Rx_reg_en =0;
+          en = 1 ; 
+          Data_or_parity = 0 ;
+          Rx_reg_en = 1;
+          reset_counter = 1 ;
            end
   counter3 : begin
+          en = 1 ;    
           Data_or_parity = 1 ;
           Rx_reg_en = 1;
+           reset_counter = 1 ;
            end 
            
  stop_state : begin
-          Data_or_parity = 1 ;
-          Rx_reg_en = 1;
+           en = 0 ; 
+          Data_or_parity = 0 ;
+          Rx_reg_en = 0;
+           reset_counter = 1 ;
            end     
                             
  num_error : begin
+           en = 0 ; 
           Data_or_parity = 0 ;
           Rx_reg_en = 0;
-           end  
+          reset_counter = 1 ;
+            end  
            
 parity_bit : begin
-          Data_or_parity = 0 ;
-          Rx_reg_en = 0;
-           end 
+            en = 0 ; 
+            Data_or_parity = 0 ;
+             Rx_reg_en = 0;
+            reset_counter = 1 ;
+            end 
                                 
 pb_error : begin
+          en = 0 ; 
           Data_or_parity = 0 ;
           Rx_reg_en = 0;
-           end    
+          reset_counter = 1 ;
+            end    
     endcase
     end        
 endmodule

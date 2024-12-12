@@ -30,12 +30,12 @@ module Rx_top_tb;
     // Test stimulus
     initial begin
         // Initialize inputs
-        reset = 1;
+        reset = 0;
         in_bit = 0;
 
         // Apply reset
         #10;
-        reset = 0;
+        reset = 1;
 
         // Apply test inputs
         #10 in_bit = 1; // First bit
