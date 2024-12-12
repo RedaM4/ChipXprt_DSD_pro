@@ -23,6 +23,7 @@
 module nBits_up_down_counter #(parameter n=4)(
     input logic clk,
     input logic reset,
+    input logic en,
     input logic up_down,
     output logic [$clog2(n)-1:0]count 
     );
@@ -30,9 +31,9 @@ module nBits_up_down_counter #(parameter n=4)(
     always@(posedge clk, negedge reset) begin
         if (!reset)
             count <=0;
-        else if (up_down == 1)
+        else if (up_down == 1 & en==1)
             count <= count + 1;
-        else if (up_down == 0)
+        else if (up_down == 0 & en==1)
             count <= count - 1;
         else count <= count;
      end

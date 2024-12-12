@@ -31,18 +31,18 @@ module n_TX_dataPath #(parameter n=4,parity_en=0,odd_even=0)(
     output logic counterReset
     );
   
-    logic [n-1:0]count;
+    logic [2:0]count;
     logic xor_res=reg_out^dff_res;
     logic reg_out;
     logic dff_res;
     logic muxOut;
     
-    n_shiftRegister_oneBit #(.n(n)) shft1(.clk(clk),.reset(reset),.en(en),.load(data_in),.load_en(buff_load_en),.out(reg_out));
-    nBits_up_down_counter #(.n(8)) counter1(.clk(en),.reset(reset),.up_down(1),.count(count));
-    nBits_comparator #(.n(8)) comp1(.clk(clk),.reset(reset),.signal(counterReset),.count(count));
-    dFlipFop dff1(.clk(clk),.reset(reset),.d(xor_res),.q(dff_res));
-    n_2x1mux #(.n(1)) (.a(xor_res),.b(!xor_res),.s(odd_even),.res(muxOut));
-    four_to_oneMux ftom1(.a(1'b0),.b(reg_out),.c(muxOut),.d(1'b1),.s(s),.out(out));
+    n_shiftRegister_oneBit #(.n(n)) shft1(.clk(clk),.reset(reset),.en(en),.load(data_in),.load_en(buff_load_en),.out(reg_out),.clear(1'b0));
+    nBits_up_down_counter #(.n(9)) counter1(.clk(clk),.reset(reset&!(s==2'b11)),.en(en),.up_down(1),.count(count));
+    nBits_comparator #(.n(8)) comp1(.clk(clk),.reset(reset),.signal(counterReset),.in(count));
+    dFlipFlop dff2(.clk(clk),.reset(reset),.d(xor_res),.q(dff_res));
+    n_2x1mux #(.n(1)) mux1(.a(xor_res),.b(!xor_res),.s(odd_even),.res(muxOut));
+    four_to_oneMux ftom1(.a(0),.b(reg_out),.c(muxOut),.d(1),.s(s),.out(out));
     
     
     

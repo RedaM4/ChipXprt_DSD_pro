@@ -32,10 +32,10 @@ module four_to_oneMux(
     
     always@(*)begin
         case(s)
-            00: out=a;
-            01: out=b;
-            10: out=c;
-            11: out=d;
+            2'b00: out=a;
+            2'b01: out=b;
+            2'b10: out=c;
+            2'b11: out=d;
         endcase
     end
     

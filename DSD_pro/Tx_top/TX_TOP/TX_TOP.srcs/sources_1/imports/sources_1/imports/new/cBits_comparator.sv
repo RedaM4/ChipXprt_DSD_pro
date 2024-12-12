@@ -39,7 +39,7 @@ endmodule
 */
 
 module nBits_comparator #(parameter n=4)(
-    input logic [$clog2(n)-1:0]count,
+    input logic [$clog2(n)-1:0]in,
     output logic signal,
     output logic resetSignal,
     input logic clk,
@@ -58,7 +58,7 @@ module nBits_comparator #(parameter n=4)(
             signal<=0;
             resetSignal<=0;
        end
-       else if(count == n-1)begin
+       else if(in==n-1)begin
             signal<=1; 
             resetSignal<=0;          
        end
