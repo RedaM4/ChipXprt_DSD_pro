@@ -12,8 +12,9 @@ module FSM_Receiver(
     input logic valid,
     //out
     output logic Data_or_parity,
-    output logic Rx_reg_en
-
+    output logic Rx_reg_en,
+    output logic en, //for counters
+    output logic reset_counter // resting counter
 
     
     );
@@ -74,6 +75,7 @@ always_comb begin
            Rx_reg_en =0;
            end
    counter1 : begin
+           en = 1 ; // add it to all states 
            Data_or_parity =0 ;
            Rx_reg_en =0;
            end
@@ -88,8 +90,8 @@ always_comb begin
            end 
            
  stop_state : begin
-          Data_or_parity = 0 ;
-          Rx_reg_en = 0;
+          Data_or_parity = 1 ;
+          Rx_reg_en = 1;
            end     
                             
  num_error : begin
