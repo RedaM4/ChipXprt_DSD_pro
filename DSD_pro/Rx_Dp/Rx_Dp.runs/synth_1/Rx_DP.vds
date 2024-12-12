@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Dec 11 16:13:34 2024
+# Process ID: 131609
+# Current directory: /home/it/chipxprt/DSD_pro/Rx_Dp/Rx_Dp.runs/synth_1
+# Command line: vivado -log Rx_DP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Rx_DP.tcl
+# Log file: /home/it/chipxprt/DSD_pro/Rx_Dp/Rx_Dp.runs/synth_1/Rx_DP.vds
+# Journal file: /home/it/chipxprt/DSD_pro/Rx_Dp/Rx_Dp.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Rx_DP.tcl -notrace
+Command: synth_design -top Rx_DP -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 131632 
+ERROR: [Synth 8-2474] operator or is only allowed in a property/sequence/event-or expr [/home/it/chipxprt/DSD_pro/Rx_Dp/Rx_Dp.srcs/sources_1/new/Rx_DP.sv:83]
+INFO: [Synth 8-2350] module Rx_DP ignored due to previous errors [/home/it/chipxprt/DSD_pro/Rx_Dp/Rx_Dp.srcs/sources_1/new/Rx_DP.sv:23]
+Failed to read verilog '/home/it/chipxprt/DSD_pro/Rx_Dp/Rx_Dp.srcs/sources_1/new/Rx_DP.sv'
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 11 16:13:40 2024...

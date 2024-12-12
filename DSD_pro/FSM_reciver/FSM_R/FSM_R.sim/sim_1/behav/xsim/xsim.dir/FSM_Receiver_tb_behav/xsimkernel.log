@@ -1,4 +1,4 @@
-Running: xsim.dir/FSM_Receiver_tb_behav/xsimk -simmode gui -wdb FSM_Receiver_tb_behav.wdb -simrunnum 0 -socket 50219
+Running: xsim.dir/FSM_Receiver_tb_behav/xsimk -simmode gui -wdb FSM_Receiver_tb_behav.wdb -simrunnum 0 -socket 50979
 Design successfully loaded
 Design Loading Memory Usage: 33004 KB (Peak: 33572 KB)
-Design Loading CPU Usage: 10 ms
+Design Loading CPU Usage: 20 ms

@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../FSM_R.srcs/sources_1/imports/sources_1/new/Comparetor.sv" \
+"../../../../FSM_R.srcs/sources_1/imports/sources_1/new/Counter.sv" \
+"../../../../FSM_R.srcs/sources_1/imports/sources_1/new/Dmux.sv" \
+"../../../../FSM_R.srcs/sources_1/new/FSM_Receiver.sv" \
+"../../../../FSM_R.srcs/sources_1/imports/sources_1/imports/new/Register1.sv" \
+"../../../../FSM_R.srcs/sources_1/imports/sources_1/new/Rx_DP.sv" \
+"../../../../FSM_R.srcs/sources_1/new/Rx_top.sv" \
+"../../../../FSM_R.srcs/sources_1/new/shift_register.sv" \
+"../../../../FSM_R.srcs/sim_1/new/Rx_top_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

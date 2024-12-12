@@ -6,7 +6,7 @@ module FSM_Receiver(
     input logic in_bit,
     input logic delay_done,//c1 finiah
     input logic sample_now, //c2 finish
-    input logic active_stop, //not use 
+   // input logic active_stop, //not use 
     input logic stop, //c3 finish 
     input logic parity_en,
     input logic valid,
@@ -78,6 +78,7 @@ always_comb begin
            en = 1 ; // add it to all states 
            Data_or_parity =0 ;
            Rx_reg_en =0;
+           reset_counter = delay_done ? 0 : 1 ; // check later
            end
            
    counter2: begin
