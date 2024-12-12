@@ -86,7 +86,7 @@ always_comb begin
    counter2: begin
           en = 1 ; 
           Data_or_parity = 0 ;
-          Rx_reg_en = 1;
+          Rx_reg_en = 0;
           reset_counter = 1 ;
            end
   counter3 : begin

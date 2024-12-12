@@ -14,7 +14,7 @@ module shift_register #(
 
     // Sequential logic for shifting
     always_ff @(posedge clk or posedge reset) begin
-        if (reset) begin
+        if (!reset) begin
             shift_reg <= '0; // Reset all bits to 0
         end else if (enable) begin
             shift_reg <= {serial_in, shift_reg[n-1:1]}; // Shift right
