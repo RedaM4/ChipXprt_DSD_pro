@@ -60,7 +60,7 @@
     );
     */
 
-module UART_Top #(parameter parity_en=0,odd_even=0) (
+module UART_Top #(parameter parity_en=0,ODD_EVEN=0) (
     input logic clk,
     input logic reset=0,
     input logic [3:0]address,
@@ -75,7 +75,7 @@ module UART_Top #(parameter parity_en=0,odd_even=0) (
     logic out_bit;
     
     n_clockDivider #(.n(divFactor)) clkDiv1(.clk(clk),.reset(reset),.newClk(dividedClock));
-    Tx_top #(.PARITY_EN(0)) TX1(.clk(dividedClock),.reset(reset),.address(address),.data_in(data_in),.busy(busy),.out(out));
-    Rx_top #(.parity_en(0),.odd_even(0)) RX1(.clk(clk),.reset(reset),.in_bit(out),.out_bit(out_bit));
+    Tx_top #(.PARITY_EN(parity_en)) TX1(.clk(dividedClock),.reset(reset),.address(address),.data_in(data_in),.busy(busy),.out(out));
+    Rx_top #(.parity_en(parity_en),.odd_even(ODD_EVEN)) RX1(.clk(clk),.reset(reset),.in_bit(out),.out_bit(out_bit));
 
 endmodule

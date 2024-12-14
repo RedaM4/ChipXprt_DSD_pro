@@ -59,7 +59,7 @@ module Tx_FSM(
         case (current_state)
 
         Idle: begin S=2'b11 ;en=0; busy=0;  end
-        Start :  begin S=2'b11 ;en=0; busy=1;  end
+        Start :  begin S=2'b00 ;en=0; busy=1;  end
         Send_data : begin S=2'b01 ;en=1; busy=1;  end
         Parity: begin S=2'b10 ;en=0; busy=1; end
  

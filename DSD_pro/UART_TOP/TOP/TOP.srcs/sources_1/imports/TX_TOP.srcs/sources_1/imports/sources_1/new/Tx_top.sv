@@ -56,7 +56,7 @@ module n_TX_dataPath #(parameter n=4,parity_en=0,odd_even=0)(
     
     
     
-module Tx_top #(parameter PARITY_EN=5)(
+module Tx_top #(parameter PARITY_EN=0,ODD_EVEN=0)(
     input logic clk,
     input logic reset,
     input logic [3:0]address,
@@ -73,7 +73,7 @@ module Tx_top #(parameter PARITY_EN=5)(
     
     nBits_comparator #(.n(UART_ADDRESS)) comp1(.clk(clk),.reset(reset),.in(address),.signal(signal));
     Tx_FSM fsm1(.clk(clk),.reset(reset),.signal(signal),.Parity_en(PARITY_EN),.Counter_reset(counter_reset),.en(en),.S(s),.busy(busy));
-    n_TX_dataPath #(.n(8),.parity_en(1'b0),.odd_even(0)) dp1(.clk(clk),.reset(reset),.en(en),.data_in(data_in),.s(s),.buff_load_en(!busy),.out(out),.counterReset(counter_reset));
+    n_TX_dataPath #(.n(8),.parity_en(1'b0),.odd_even(ODD_EVEN)) dp1(.clk(clk),.reset(reset),.en(en),.data_in(data_in),.s(s),.buff_load_en(!busy),.out(out),.counterReset(counter_reset));
     
     
 endmodule

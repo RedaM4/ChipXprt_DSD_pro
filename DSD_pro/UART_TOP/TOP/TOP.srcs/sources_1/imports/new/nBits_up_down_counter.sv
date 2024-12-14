@@ -28,6 +28,7 @@ module nBits_up_down_counter #(parameter n=4)(
     output logic [$clog2(n)-1:0]count 
     );
   //  localparam flipTrig=n/2;
+   
     always@(posedge clk, negedge reset) begin
         if (!reset)
             count <=0;
@@ -38,11 +39,3 @@ module nBits_up_down_counter #(parameter n=4)(
         else count <= count;
      end
 endmodule
-/*
-one for memory
-one for branch
-add more instructions 
-same number of bits 
-
-RA = [imm] is data memory
-*/

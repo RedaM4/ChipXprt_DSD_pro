@@ -12,7 +12,7 @@ module Comparetor #( parameter n = 8 // Default width of the comparator
 );
 
     // Equality logic
-    always_ff@(posedge clk ,negedge reset) begin
+    always_comb begin
         equal = (a == b); // Set 'equal' high if a and b are the same
     end
 

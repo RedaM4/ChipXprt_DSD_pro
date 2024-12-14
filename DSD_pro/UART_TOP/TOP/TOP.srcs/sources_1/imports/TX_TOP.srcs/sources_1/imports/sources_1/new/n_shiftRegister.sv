@@ -37,14 +37,16 @@ module n_shiftRegister_oneBit #(parameter n=4)(
     always@(posedge clk, negedge reset)begin
         if(!reset | clear)begin
             register<=0; 
-            out<=0;
+            //out<=0;
             end
         else if(load_en)
             register<=load;
         else if(en)begin
-            out<=register[0];
+            //out<=register[0];
             register<=register>>1;
         end
     end
+    
+    assign out = register[0];
     
 endmodule

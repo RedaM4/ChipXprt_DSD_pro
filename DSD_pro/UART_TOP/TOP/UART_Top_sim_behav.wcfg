@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="44050000001fs"></ZoomEndTime>
-      <Cursor1Time time="8350000000fs"></Cursor1Time>
+      <ZoomStartTime time="4123200000fs"></ZoomStartTime>
+      <ZoomEndTime time="10383200001fs"></ZoomEndTime>
+      <Cursor1Time time="11970000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="84"></NameColumnWidth>
-      <ValueColumnWidth column_width="60"></ValueColumnWidth>
+      <NameColumnWidth column_width="170"></NameColumnWidth>
+      <ValueColumnWidth column_width="172"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="23" />
+   <WVObjectSize size="24" />
    <wvobject type="logic" fp_name="/UART_Top_sim/UART1/clkDiv1/clk">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -41,12 +41,8 @@
       <obj_property name="ObjectShortName">dividedClock</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/UART_Top_sim/UART1/clkDiv1/nbc1/count">
-      <obj_property name="ElementShortName">count[3:0]</obj_property>
-      <obj_property name="ObjectShortName">count[3:0]</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/UART_Top_sim/UART1/TX1/clk">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="ElementShortName">count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count[2:0]</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/UART_Top_sim/UART1/TX1/reset">
       <obj_property name="ElementShortName">reset</obj_property>
@@ -60,9 +56,17 @@
       <obj_property name="ElementShortName">data_in[7:0]</obj_property>
       <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
    </wvobject>
+   <wvobject type="array" fp_name="/UART_Top_sim/UART1/TX1/dp1/counter1/count">
+      <obj_property name="ElementShortName">count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count[3:0]</obj_property>
+   </wvobject>
    <wvobject type="logic" fp_name="/UART_Top_sim/UART1/TX1/busy">
       <obj_property name="ElementShortName">busy</obj_property>
       <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/UART_Top_sim/UART1/TX1/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/UART_Top_sim/UART1/TX1/out">
       <obj_property name="ElementShortName">out</obj_property>
@@ -74,9 +78,17 @@
       <obj_property name="ElementShortName">signal</obj_property>
       <obj_property name="ObjectShortName">signal</obj_property>
    </wvobject>
+   <wvobject type="array" fp_name="/UART_Top_sim/UART1/TX1/fsm1/current_state">
+      <obj_property name="ElementShortName">current_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[2:0]</obj_property>
+   </wvobject>
    <wvobject type="logic" fp_name="/UART_Top_sim/UART1/TX1/counter_reset">
       <obj_property name="ElementShortName">counter_reset</obj_property>
       <obj_property name="ObjectShortName">counter_reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/UART_Top_sim/UART1/TX1/fsm1/next_state">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
    </wvobject>
    <wvobject type="array" fp_name="/UART_Top_sim/UART1/TX1/s">
       <obj_property name="ElementShortName">s[1:0]</obj_property>
@@ -93,14 +105,6 @@
    <wvobject type="array" fp_name="/UART_Top_sim/UART1/TX1/UART_ADDRESS">
       <obj_property name="ElementShortName">UART_ADDRESS[3:0]</obj_property>
       <obj_property name="ObjectShortName">UART_ADDRESS[3:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/UART_Top_sim/UART1/TX1/fsm1/current_state">
-      <obj_property name="ElementShortName">current_state[2:0]</obj_property>
-      <obj_property name="ObjectShortName">current_state[2:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/UART_Top_sim/UART1/TX1/fsm1/next_state">
-      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
-      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
    </wvobject>
    <wvobject type="logic" fp_name="/UART_Top_sim/UART1/RX1/clk">
       <obj_property name="ElementShortName">clk</obj_property>
