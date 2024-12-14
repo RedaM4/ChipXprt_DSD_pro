@@ -45,12 +45,15 @@ always_comb begin
     case(current_state)
     IDLE : next_state = in_bit ? IDLE : counter1 ;
     
-    counter1 : next_state =  delay_done ? counter2 : counter1 ;
+    counter1 : if(stop)
+                next_state = delay_done ? stop_state : counter1;
+                else
+                next_state =  delay_done ? counter2 : counter1 ;
 
     counter2 : next_state =  sample_now ? counter3 : counter2 ;
     
     counter3 :if(stop) 
-             next_state =  parity_en ? parity_bit : stop_state ;
+             next_state =  parity_en ? parity_bit : counter1 ;
                else 
              next_state = counter2 ;
     

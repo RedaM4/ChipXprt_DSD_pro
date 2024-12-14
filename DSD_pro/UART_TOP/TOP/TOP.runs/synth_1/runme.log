@@ -15,31 +15,31 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 909339 
+INFO: Helper process launched with PID 998815 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1768.180 ; gain = 153.688 ; free physical = 1200 ; free virtual = 10699
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1768.180 ; gain = 153.688 ; free physical = 2577 ; free virtual = 10467
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'sev_seg_top' [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/src/sev_seg.sv:1]
-	Parameter divFactor1 bound to: 79900000 - type: integer 
-	Parameter divFactor2 bound to: 4900000 - type: integer 
+	Parameter divFactor1 bound to: 7 - type: integer 
+	Parameter divFactor2 bound to: 1 - type: integer 
 INFO: [Synth 8-6157] synthesizing module 'n_clockDivider' [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/n_clockDivider.sv:23]
-	Parameter n bound to: 79900000 - type: integer 
+	Parameter n bound to: 7 - type: integer 
 INFO: [Synth 8-6157] synthesizing module 'dFlipFlop' [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/dFlipFlop.sv:23]
 INFO: [Synth 8-6155] done synthesizing module 'dFlipFlop' (1#1) [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/dFlipFlop.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'nBits_comparator' [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/cBits_comparator.sv:41]
-	Parameter n bound to: 79900000 - type: integer 
+	Parameter n bound to: 7 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'nBits_comparator' (2#1) [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/cBits_comparator.sv:41]
 INFO: [Synth 8-6157] synthesizing module 'nBits_up_down_counter' [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/nBits_up_down_counter.sv:23]
-	Parameter n bound to: 79900000 - type: integer 
+	Parameter n bound to: 7 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'nBits_up_down_counter' (3#1) [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/nBits_up_down_counter.sv:23]
 INFO: [Synth 8-6155] done synthesizing module 'n_clockDivider' (4#1) [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/n_clockDivider.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'n_clockDivider__parameterized0' [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/n_clockDivider.sv:23]
-	Parameter n bound to: 4900000 - type: integer 
+	Parameter n bound to: 1 - type: integer 
 INFO: [Synth 8-6157] synthesizing module 'nBits_comparator__parameterized0' [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/cBits_comparator.sv:41]
-	Parameter n bound to: 4900000 - type: integer 
+	Parameter n bound to: 1 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'nBits_comparator__parameterized0' (4#1) [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/cBits_comparator.sv:41]
 INFO: [Synth 8-6157] synthesizing module 'nBits_up_down_counter__parameterized0' [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/nBits_up_down_counter.sv:23]
-	Parameter n bound to: 4900000 - type: integer 
+	Parameter n bound to: 1 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'nBits_up_down_counter__parameterized0' (4#1) [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/nBits_up_down_counter.sv:23]
 INFO: [Synth 8-6155] done synthesizing module 'n_clockDivider__parameterized0' (4#1) [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/n_clockDivider.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'Tx_top' [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/TX_TOP.srcs/sources_1/imports/sources_1/new/Tx_top.sv:59]
@@ -133,7 +133,7 @@ WARNING: [Synth 8-3331] design sev_seg_top has unconnected port SW[14]
 WARNING: [Synth 8-3331] design sev_seg_top has unconnected port SW[13]
 WARNING: [Synth 8-3331] design sev_seg_top has unconnected port SW[12]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1822.930 ; gain = 208.438 ; free physical = 1149 ; free virtual = 10649
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1822.930 ; gain = 208.438 ; free physical = 2586 ; free virtual = 10477
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -146,10 +146,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1825.898 ; gain = 211.406 ; free physical = 1149 ; free virtual = 10649
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1825.898 ; gain = 211.406 ; free physical = 2597 ; free virtual = 10487
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1825.898 ; gain = 211.406 ; free physical = 1149 ; free virtual = 10649
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1825.898 ; gain = 211.406 ; free physical = 2597 ; free virtual = 10487
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
@@ -167,29 +167,27 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/sev_seg_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2006.555 ; gain = 0.000 ; free physical = 1147 ; free virtual = 10647
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2005.555 ; gain = 0.000 ; free physical = 2501 ; free virtual = 10391
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2006.555 ; gain = 0.000 ; free physical = 1147 ; free virtual = 10647
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2005.555 ; gain = 0.000 ; free physical = 2501 ; free virtual = 10391
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1150 ; free virtual = 10649
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2520 ; free virtual = 10410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1150 ; free virtual = 10649
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2520 ; free virtual = 10410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1150 ; free virtual = 10649
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2520 ; free virtual = 10410
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/nBits_up_down_counter.sv:34]
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/nBits_up_down_counter.sv:34]
 INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'Tx_FSM'
 INFO: [Synth 8-5544] ROM "S" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sources_1/imports/new/nBits_up_down_counter.sv:34]
@@ -206,18 +204,18 @@ INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using e
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
-                    IDLE |                         00000001 |                             0000
-                counter1 |                         00000010 |                             0001
-                counter2 |                         00000100 |                             0010
-                counter3 |                         00001000 |                             0011
-              parity_bit |                         00010000 |                             0100
-                pb_error |                         00100000 |                             0111
-              stop_state |                         01000000 |                             0101
-               num_error |                         10000000 |                             0110
+                    IDLE |                              000 |                             0000
+                counter1 |                              001 |                             0001
+                counter2 |                              010 |                             0010
+                counter3 |                              011 |                             0011
+              parity_bit |                              100 |                             0100
+                pb_error |                              101 |                             0111
+              stop_state |                              110 |                             0101
+               num_error |                              111 |                             0110
 ---------------------------------------------------------------------------------------------------
-INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'FSM_Receiver'
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'FSM_Receiver'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1149 ; free virtual = 10650
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2520 ; free virtual = 10411
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -231,22 +229,27 @@ Start RTL Component Statistics
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input      4 Bit       Adders := 3     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
 +---XORs : 
 	   2 Input      1 Bit         XORs := 3     
 +---Registers : 
 	                8 Bit    Registers := 2     
 	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
 	                1 Bit    Registers := 11    
 +---Muxes : 
-	   2 Input      8 Bit        Muxes := 9     
-	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
 	   2 Input      4 Bit        Muxes := 2     
 	   4 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 9     
+	   2 Input      2 Bit        Muxes := 6     
 	   4 Input      2 Bit        Muxes := 2     
-	   2 Input      2 Bit        Muxes := 4     
-	   2 Input      1 Bit        Muxes := 11    
+	   2 Input      1 Bit        Muxes := 15    
 	   4 Input      1 Bit        Muxes := 3     
-	   8 Input      1 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 3     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -262,17 +265,31 @@ Module nBits_comparator
 Detailed RTL Component Info : 
 +---Registers : 
 	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
 Module nBits_up_down_counter 
 Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
 +---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 1     
 Module nBits_comparator__parameterized0 
 Detailed RTL Component Info : 
 +---Registers : 
 	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
 Module nBits_up_down_counter__parameterized0 
 Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
 +---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 1     
 Module nBits_comparator__parameterized1 
 Detailed RTL Component Info : 
@@ -318,9 +335,9 @@ Detailed RTL Component Info :
 Module FSM_Receiver 
 Detailed RTL Component Info : 
 +---Muxes : 
-	   8 Input      8 Bit        Muxes := 1     
-	   2 Input      8 Bit        Muxes := 7     
-	   8 Input      1 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 9     
+	   8 Input      1 Bit        Muxes := 3     
 Module Counter 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -380,12 +397,9 @@ WARNING: [Synth 8-3331] design sev_seg_top has unconnected port SW[15]
 WARNING: [Synth 8-3331] design sev_seg_top has unconnected port SW[14]
 WARNING: [Synth 8-3331] design sev_seg_top has unconnected port SW[13]
 WARNING: [Synth 8-3331] design sev_seg_top has unconnected port SW[12]
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RX1/fsm_receiver_inst/FSM_onehot_current_state_reg[4] )
 INFO: [Synth 8-3886] merging instance 'RX1/rx_dp_inst/regi/q_reg[0]' (FDCE) to 'RX1/shift_register_inst/shift_reg_reg[7]'
-WARNING: [Synth 8-3332] Sequential element (RX1/fsm_receiver_inst/FSM_onehot_current_state_reg[5]) is unused and will be removed from module sev_seg_top.
-WARNING: [Synth 8-3332] Sequential element (RX1/fsm_receiver_inst/FSM_onehot_current_state_reg[4]) is unused and will be removed from module sev_seg_top.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1154 ; free virtual = 10657
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2524 ; free virtual = 10416
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -397,13 +411,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1062 ; free virtual = 10564
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2435 ; free virtual = 10329
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1046 ; free virtual = 10548
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2427 ; free virtual = 10321
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -415,7 +429,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1046 ; free virtual = 10548
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2424 ; free virtual = 10317
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -439,7 +453,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1047 ; free virtual = 10550
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2425 ; free virtual = 10318
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -452,7 +466,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1047 ; free virtual = 10550
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2425 ; free virtual = 10318
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -464,25 +478,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1047 ; free virtual = 10550
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2425 ; free virtual = 10318
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1047 ; free virtual = 10550
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2425 ; free virtual = 10318
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1047 ; free virtual = 10550
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2425 ; free virtual = 10318
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1047 ; free virtual = 10550
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2425 ; free virtual = 10318
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -499,18 +513,18 @@ Report Cell Usage:
 |      |Cell   |Count |
 +------+-------+------+
 |1     |BUFG   |     1|
-|2     |CARRY4 |    18|
+|2     |CARRY4 |     5|
 |3     |LUT1   |     8|
 |4     |LUT2   |    10|
-|5     |LUT3   |    21|
-|6     |LUT4   |    24|
-|7     |LUT5   |    10|
-|8     |LUT6   |    13|
-|9     |FDCE   |    92|
-|10    |FDPE   |     1|
+|5     |LUT3   |    23|
+|6     |LUT4   |    23|
+|7     |LUT5   |     5|
+|8     |LUT6   |     6|
+|9     |MUXF7  |     5|
+|10    |FDCE   |    40|
 |11    |FDRE   |    20|
-|12    |IBUF   |    14|
-|13    |OBUF   |    19|
+|12    |IBUF   |    15|
+|13    |OBUF   |    20|
 |14    |OBUFT  |    13|
 +------+-------+------+
 
@@ -518,53 +532,49 @@ Report Instance Areas:
 +------+------------------------+--------------------------------------+------+
 |      |Instance                |Module                                |Cells |
 +------+------------------------+--------------------------------------+------+
-|1     |top                     |                                      |   264|
-|2     |  RX1                   |Rx_top                                |    41|
-|3     |    fsm_receiver_inst   |FSM_Receiver                          |    10|
-|4     |    rx_dp_inst          |Rx_DP                                 |    22|
-|5     |      one               |Counter                               |    13|
-|6     |      two               |Counter_2                             |     9|
-|7     |    shift_register_inst |shift_register                        |     9|
+|1     |top                     |                                      |   194|
+|2     |  RX1                   |Rx_top                                |    45|
+|3     |    fsm_receiver_inst   |FSM_Receiver                          |    13|
+|4     |    rx_dp_inst          |Rx_DP                                 |    20|
+|5     |      one               |Counter                               |    11|
+|6     |      two               |Counter_1                             |     9|
+|7     |    shift_register_inst |shift_register                        |    12|
 |8     |  TX1                   |Tx_top                                |    37|
 |9     |    comp1               |nBits_comparator__parameterized1      |     2|
-|10    |    dp1                 |n_TX_dataPath                         |    19|
+|10    |    dp1                 |n_TX_dataPath                         |    24|
 |11    |      counter1          |nBits_up_down_counter__parameterized1 |     7|
-|12    |      dff2              |dFlipFlop_1                           |     2|
-|13    |      shft1             |n_shiftRegister_oneBit                |    10|
-|14    |    fsm1                |Tx_FSM                                |    16|
-|15    |  clkDiv1               |n_clockDivider                        |    48|
+|12    |      dff2              |dFlipFlop_0                           |     2|
+|13    |      shft1             |n_shiftRegister_oneBit                |    15|
+|14    |    fsm1                |Tx_FSM                                |    11|
+|15    |  clkDiv1               |n_clockDivider                        |    13|
 |16    |    comp1               |nBits_comparator                      |     3|
-|17    |    dff1                |dFlipFlop_0                           |     2|
-|18    |    nbc1                |nBits_up_down_counter                 |    43|
-|19    |  clkDiv2               |n_clockDivider__parameterized0        |    42|
-|20    |    comp1               |nBits_comparator__parameterized0      |     3|
-|21    |    dff1                |dFlipFlop                             |     2|
-|22    |    nbc1                |nBits_up_down_counter__parameterized0 |    37|
-|23    |  ssc                   |sev_seg_controller                    |    49|
-|24    |    counter             |counter_n_bit                         |    49|
+|17    |    dff1                |dFlipFlop                             |     2|
+|18    |    nbc1                |nBits_up_down_counter                 |     8|
+|19    |  ssc                   |sev_seg_controller                    |    50|
+|20    |    counter             |counter_n_bit                         |    50|
 +------+------------------------+--------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1047 ; free virtual = 10550
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2425 ; free virtual = 10318
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 20 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2006.555 ; gain = 211.406 ; free physical = 1047 ; free virtual = 10550
-Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2006.555 ; gain = 392.062 ; free physical = 1046 ; free virtual = 10549
+Synthesis finished with 0 errors, 0 critical warnings and 18 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2005.555 ; gain = 211.406 ; free physical = 2425 ; free virtual = 10318
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2005.555 ; gain = 391.062 ; free physical = 2425 ; free virtual = 10318
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2006.555 ; gain = 0.000 ; free physical = 1062 ; free virtual = 10565
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2005.555 ; gain = 0.000 ; free physical = 2439 ; free virtual = 10332
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-80 Infos, 49 Warnings, 2 Critical Warnings and 0 Errors encountered.
+77 Infos, 47 Warnings, 2 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2006.555 ; gain = 631.945 ; free physical = 1080 ; free virtual = 10583
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2006.555 ; gain = 0.000 ; free physical = 1080 ; free virtual = 10583
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2005.555 ; gain = 630.945 ; free physical = 2464 ; free virtual = 10357
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2005.555 ; gain = 0.000 ; free physical = 2464 ; free virtual = 10357
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint '/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.runs/synth_1/sev_seg_top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file sev_seg_top_utilization_synth.rpt -pb sev_seg_top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Dec 14 05:00:57 2024...
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 14 07:36:59 2024...

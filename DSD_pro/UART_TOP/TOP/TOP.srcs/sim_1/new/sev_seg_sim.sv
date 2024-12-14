@@ -76,17 +76,16 @@ initial begin
     data_in=8'b01001100;
     #2000
     address=4'b1000;
-    data_in=8'b01001100;
-    #10000000
+    data_in=8'b00001111;
+    #1000
     address = 4'b0000;
-//    address=4'b0000;
     data_in=8'b00000000;
     #10000
     address=4'b0011;
     data_in=8'b11110000;
     #2000
     address=4'b1000;
-    data_in=8'b10000000;
+    data_in=8'b11001100;
     #2000;
     address=4'b0010;
     data_in=8'b11111111;

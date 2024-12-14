@@ -4,7 +4,9 @@ module sev_seg_top(
     output wire CA, CB, CC, CD, CE, CF, CG, DP,
     output wire [7:0] AN,
     output wire [15:0]LED,    
-    input wire [15:0]SW
+    input wire [15:0]SW,
+    output wire [1:1]JA,
+    input wire [1:1]JB
 );
 logic reset_n;
 logic clk;
@@ -18,9 +20,11 @@ wire [3:0] signals;
 //localparam divFactor1=31250000;
 //localparam divFactor2=100000000;
 
-localparam divFactor1=799_00000;
-localparam divFactor2=49_00000;
+//localparam divFactor1=799_00000;
+//localparam divFactor2=49_00000;
 
+localparam divFactor1=7;
+localparam divFactor2=1;
 
 logic out;
 logic [7:0] out_bit;
@@ -40,8 +44,8 @@ assign data_out=out_bit;
 //assign LED[0]=busy;
     n_clockDivider #(.n(divFactor1)) clkDiv1(.clk(clk),.reset(reset_n),.newClk(dividedClock));
     n_clockDivider #(.n(divFactor2)) clkDiv2(.clk(clk),.reset(reset_n),.newClk(dividedClock2));
-    Tx_top #(.PARITY_EN(0)) TX1(.clk(dividedClock),.reset(reset_n),.address(address),.data_in(data_in),.busy(LED[0]),.out(out),.s(LED[3:2]));
-    Rx_top #(.parity_en(0),.odd_even(0)) RX1(.clk(dividedClock2),.reset(reset_n),.in_bit(out),.out_bit(out_bit));
+    Tx_top #(.PARITY_EN(0)) TX1(.clk(dividedClock),.reset(reset_n),.address(address),.data_in(data_in),.busy(LED[0]),.out(JA[1]),.s(LED[3:2]));
+    Rx_top #(.parity_en(0),.odd_even(0)) RX1(.clk(clk),.reset(reset_n),.in_bit(JB[1]),.out_bit(out_bit));
 
 
 

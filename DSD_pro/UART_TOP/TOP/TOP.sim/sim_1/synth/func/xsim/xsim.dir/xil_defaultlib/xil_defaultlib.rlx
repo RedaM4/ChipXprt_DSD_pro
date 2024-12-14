@@ -2,6 +2,6 @@
 2019.1
 May 24 2019
 14:51:52
-/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.sim/sim_1/synth/func/xsim/sev_seg_sim_func_synth.v,1734180339,verilog,,,,Counter;Counter_1;FSM_Receiver;Register;Rx_DP;Rx_top;Tx_FSM;Tx_top;counter_n_bit;dFlipFlop;dFlipFlop_0;glbl;nBits_comparator;nBits_comparator__parameterized0;nBits_up_down_counter;nBits_up_down_counter__parameterized0;n_TX_dataPath;n_clockDivider;n_shiftRegister_oneBit;sev_seg_controller;sev_seg_top;shift_register,,,,,,,,
+/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.sim/sim_1/synth/func/xsim/sev_seg_sim_func_synth.v,1734189427,verilog,,,,Counter;Counter_2;FSM_Receiver;Rx_DP;Rx_top;Tx_FSM;Tx_top;counter_n_bit;dFlipFlop;dFlipFlop_0;dFlipFlop_1;glbl;nBits_comparator;nBits_comparator__parameterized0;nBits_comparator__parameterized1;nBits_up_down_counter;nBits_up_down_counter__parameterized0;nBits_up_down_counter__parameterized1;n_TX_dataPath;n_clockDivider;n_clockDivider__parameterized0;n_shiftRegister_oneBit;sev_seg_controller;sev_seg_top;shift_register,,,,,,,,
 /home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sim_1/new/UART_Top_sim.sv,1734169727,systemVerilog,,,,UART_Top_sim,,,,,,,,
-/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sim_1/new/sev_seg_sim.sv,1734180070,systemVerilog,,,,sev_seg_sim,,,,,,,,
+/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.srcs/sim_1/new/sev_seg_sim.sv,1734185880,systemVerilog,,,,sev_seg_sim,,,,,,,,

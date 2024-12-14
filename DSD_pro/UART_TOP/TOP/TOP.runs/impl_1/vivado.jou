@@ -2,8 +2,8 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sat Dec 14 05:00:57 2024
-# Process ID: 909524
+# Start of session at: Sat Dec 14 07:37:00 2024
+# Process ID: 999031
 # Current directory: /home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.runs/impl_1
 # Command line: vivado -log sev_seg_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sev_seg_top.tcl -notrace
 # Log file: /home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.runs/impl_1/sev_seg_top.vdi
