@@ -62,13 +62,13 @@ module Tx_top #(parameter PARITY_EN=5)(
     input logic [3:0]address,
     input logic [7:0]data_in,
     output logic busy,
-    output logic out
+    output logic out,
+    output logic [1:0] s
     );
     
     localparam UART_ADDRESS=4'b1001;
     logic signal;
-    logic counter_reset=0;
-    logic [1:0]s=0;
+    logic counter_reset;
     logic en;
     
     nBits_comparator #(.n(UART_ADDRESS)) comp1(.clk(clk),.reset(reset),.in(address),.signal(signal));

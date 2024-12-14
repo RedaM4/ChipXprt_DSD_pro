@@ -122,6 +122,12 @@ pb_error : begin
           Data_or_parity = 0 ;
           Rx_reg_en = 0;
           reset_counter = 0 ;
+            end  
+default : begin
+          en = 0 ; 
+          Data_or_parity = 0 ;
+          Rx_reg_en = 0;
+          reset_counter = 1 ;
             end    
     endcase
     end        

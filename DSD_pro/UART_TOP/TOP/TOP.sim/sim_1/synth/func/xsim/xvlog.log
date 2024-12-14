@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cenema/Desktop/Xilinx_Projects/ChipXprt_DSD_pro/DSD_pro/UART_TOP/TOP/TOP.sim/sim_1/synth/func/xsim/sev_seg_sim_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter
+INFO: [VRFC 10-311] analyzing module Counter_1
+INFO: [VRFC 10-311] analyzing module FSM_Receiver
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-311] analyzing module Rx_DP
+INFO: [VRFC 10-311] analyzing module Rx_top
+INFO: [VRFC 10-311] analyzing module Tx_FSM
+INFO: [VRFC 10-311] analyzing module Tx_top
+INFO: [VRFC 10-311] analyzing module counter_n_bit
+INFO: [VRFC 10-311] analyzing module dFlipFlop
+INFO: [VRFC 10-311] analyzing module dFlipFlop_0
+INFO: [VRFC 10-311] analyzing module nBits_comparator
+INFO: [VRFC 10-311] analyzing module nBits_comparator__parameterized0
+INFO: [VRFC 10-311] analyzing module nBits_up_down_counter
+INFO: [VRFC 10-311] analyzing module nBits_up_down_counter__parameterized0
+INFO: [VRFC 10-311] analyzing module n_TX_dataPath
+INFO: [VRFC 10-311] analyzing module n_clockDivider
+INFO: [VRFC 10-311] analyzing module n_shiftRegister_oneBit
+INFO: [VRFC 10-311] analyzing module sev_seg_controller
+INFO: [VRFC 10-311] analyzing module sev_seg_top
+INFO: [VRFC 10-311] analyzing module shift_register
+INFO: [VRFC 10-311] analyzing module glbl

@@ -32,10 +32,12 @@ module n_TX_dataPath #(parameter n=4,parity_en=0,odd_even=0)(
     );
   
     logic [2:0]count;
-    logic xor_res=reg_out^dff_res;
     logic reg_out;
     logic dff_res;
     logic muxOut;
+    
+    logic xor_res=reg_out^dff_res;
+    
     
     n_shiftRegister_oneBit #(.n(n)) shft1(.clk(clk),.reset(reset),.en(en),.load(data_in),.load_en(buff_load_en),.out(reg_out),.clear(1'b0));
     nBits_up_down_counter #(.n(9)) counter1(.clk(clk),.reset(reset&!(s==2'b11)),.en(en),.up_down(1),.count(count));

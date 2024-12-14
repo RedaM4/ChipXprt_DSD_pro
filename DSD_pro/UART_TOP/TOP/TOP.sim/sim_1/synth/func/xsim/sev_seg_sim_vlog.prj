@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"sev_seg_sim_func_synth.v" \
+
+sv xil_defaultlib  \
+"../../../../../TOP.srcs/sim_1/new/sev_seg_sim.sv" \
+
+# Do not sort compile order
+nosort

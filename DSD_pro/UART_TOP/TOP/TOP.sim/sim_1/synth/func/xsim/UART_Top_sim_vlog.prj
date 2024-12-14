@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"UART_Top_sim_func_synth.v" \
+
+sv xil_defaultlib  \
+"../../../../../TOP.srcs/sim_1/new/UART_Top_sim.sv" \
+
+# Do not sort compile order
+nosort

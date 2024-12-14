@@ -62,17 +62,18 @@
 
 module UART_Top #(parameter parity_en=0,odd_even=0) (
     input logic clk,
-    input logic reset=0,
+    input logic reset,
     input logic [3:0]address,
     input logic [7:0]data_in,
-    output logic busy
+    output logic busy,
+    output logic [7:0]out_bit
     );
     
     localparam divFactor=7;
     
-    logic dividedClock=0;
+    logic dividedClock;
     logic out;
-    logic out_bit;
+//    logic [7:0]out_bit;
     
     n_clockDivider #(.n(divFactor)) clkDiv1(.clk(clk),.reset(reset),.newClk(dividedClock));
     Tx_top #(.PARITY_EN(0)) TX1(.clk(dividedClock),.reset(reset),.address(address),.data_in(data_in),.busy(busy),.out(out));
